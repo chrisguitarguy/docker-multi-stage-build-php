@@ -1,0 +1,15 @@
+{
+    "name": "chrisguitarguy/docker-multi-stage-php",
+    "description": "Example multi-stage build",
+    "license": "MIT",
+    "keywords": [],
+    "require": {
+        "php": "~7.1",
+        "symfony/console": "~4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Chrisguitarguy\\DockerMulti\\": "src/"
+        }
+    }
+}

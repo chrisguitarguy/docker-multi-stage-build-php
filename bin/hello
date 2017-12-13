@@ -1,0 +1,9 @@
+#!/usr/bin/env php
+<?php
+
+use Chrisguitarguy\DockerMulti\App;
+
+require __DIR__.'/../vendor/autoload.php';
+
+$app = new App();
+$app->run();
